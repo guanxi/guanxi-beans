@@ -37,11 +37,11 @@
         </executions>
         <inherited>true</inherited>
         <configuration>
-          <schemaDirectory>${basedir}/../xsd</schemaDirectory>
+          <schemaDirectory>${basedir}/xsd</schemaDirectory>
           <download>true</download>
           <noUpa>true</noUpa>
           <xmlConfigs>
-            <xmlConfig implementation="java.io.File">${basedir}/../xsd/guanxi.xsdconfig</xmlConfig>
+            <xmlConfig implementation="java.io.File">${basedir}/xsd/guanxi.xsdconfig</xmlConfig>
           </xmlConfigs>
         </configuration>
       </plugin>
