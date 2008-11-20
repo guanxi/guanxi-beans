@@ -21,6 +21,18 @@
     </plugins>
   </reporting>
 
+  <dependencies>
+    <dependency>
+      <groupId>org.apache.xmlbeans</groupId>
+      <artifactId>jsr173_1.0_api</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.xmlbeans</groupId>
+      <artifactId>xbean</artifactId>
+    </dependency>
+  </dependencies>
+
   <build>
     <plugins>
 
