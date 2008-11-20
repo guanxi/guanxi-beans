@@ -263,6 +263,9 @@
   </complexType>
 
   <complexType name="mapRefType">
+    <sequence>
+      <element name="except" type="string" minOccurs="0" maxOccurs="unbounded" />
+    </sequence>
     <attribute name="name" type="string"/>
   </complexType>
 
