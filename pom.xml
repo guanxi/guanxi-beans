@@ -50,6 +50,7 @@
         <inherited>true</inherited>
         <configuration>
           <schemaDirectory>${basedir}/xsd</schemaDirectory>
+          <sourceGenerationDirectory>src</sourceGenerationDirectory>
           <download>true</download>
           <noUpa>true</noUpa>
           <xmlConfigs>
