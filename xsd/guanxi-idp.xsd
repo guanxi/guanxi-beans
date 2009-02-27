@@ -314,6 +314,17 @@
   <!-- ******************************************************************** -->
 
   <!-- ******************************************************************** -->
+  <!-- Variable format -->
+  <element name="vars">
+    <complexType>
+      <sequence>
+        <element name="var" type="gx:mapVarType" minOccurs="0" maxOccurs="unbounded" />
+      </sequence>
+    </complexType>
+  </element>
+  <!-- ******************************************************************** -->
+
+  <!-- ******************************************************************** -->
   <!-- BodingtonAttributor config -->
   <element name="BodingtonAttributor">
     <complexType>
