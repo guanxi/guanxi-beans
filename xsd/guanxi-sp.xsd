@@ -55,8 +55,9 @@
   <complexType name="guardProfileType">
     <simpleContent>
       <extension base="string">
-        <attribute name="url" type="string" />
-        <attribute name="profile" type="string" />
+        <attribute name="name" type="string" />
+        <attribute name="binding" type="string" use="optional" />
+        <attribute name="path" type="string" />
       </extension>
     </simpleContent>
   </complexType>
