@@ -48,6 +48,7 @@
     <sequence>
       <element name="AuthConsumerURL" type="string"/>
       <element name="WAYFLocationService" type="string"/>
+      <element name="SAML2WBSSOService" type="string"/>
       <element name="Timeout" type="string"/>
     </sequence>
   </complexType>
