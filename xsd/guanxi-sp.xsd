@@ -48,8 +48,19 @@
     <sequence>
       <element name="AuthConsumerURL" type="string"/>
       <element name="WAYFLocationService" type="string"/>
+      <element name="SAML2WBSSOService" type="string"/>
       <element name="Timeout" type="string"/>
     </sequence>
+  </complexType>
+
+  <complexType name="guardProfileType">
+    <simpleContent>
+      <extension base="string">
+        <attribute name="name" type="string" />
+        <attribute name="binding" type="string" use="optional" />
+        <attribute name="path" type="string" />
+      </extension>
+    </simpleContent>
   </complexType>
 
   <element name="Guard">
@@ -63,6 +74,13 @@
         <element name="Keystore" type="string" />
         <element name="KeystorePassword" type="string" />
         <element name="CertificateAlias" type="string" />
+        <element name="Profiles" minOccurs="0" maxOccurs="1">
+          <complexType>
+            <sequence>
+              <element name="Profile" type="gx:guardProfileType" minOccurs="1" maxOccurs="unbounded" />
+            </sequence>
+          </complexType>
+        </element>
       </sequence>
     </complexType>
   </element>
