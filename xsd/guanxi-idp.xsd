@@ -283,6 +283,7 @@
         <attribute name="attrName" type="string"/>
         <attribute name="attrValue" type="string"/>
         <attribute name="mappedName" type="string"/>
+        <attribute name="friendlyName" type="string" use="optional"/>
         <attribute name="mappedValue" type="string"/>
         <attribute name="mappedRule" type="string"/>
         <attribute name="persistent" type="boolean"/>
@@ -342,6 +343,7 @@
     <simpleContent>
       <extension base="string">
         <attribute name="name" type="string"/>
+        <attribute name="friendlyName" type="string" use="optional"/>
         <attribute name="value" type="string"/>
       </extension>
     </simpleContent>
