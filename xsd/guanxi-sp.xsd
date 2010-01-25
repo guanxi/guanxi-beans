@@ -57,6 +57,7 @@
     <simpleContent>
       <extension base="string">
         <attribute name="name" type="string" />
+        <attribute name="format" type="string" use="optional" />
         <attribute name="binding" type="string" use="optional" />
         <attribute name="path" type="string" />
       </extension>
