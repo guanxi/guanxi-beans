@@ -59,6 +59,7 @@
         <attribute name="name" type="string" />
         <attribute name="format" type="string" use="optional" />
         <attribute name="binding" type="string" use="optional" />
+        <attribute name="defaultID" type="string" use="optional" />
         <attribute name="path" type="string" />
       </extension>
     </simpleContent>
@@ -75,6 +76,7 @@
         <element name="Keystore" type="string" />
         <element name="KeystorePassword" type="string" />
         <element name="CertificateAlias" type="string" />
+        <element name="KeyType" type="string" />
         <element name="Profiles" minOccurs="0" maxOccurs="1">
           <complexType>
             <sequence>
