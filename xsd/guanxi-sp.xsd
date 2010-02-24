@@ -46,9 +46,7 @@
 
   <complexType name="engineInfoType">
     <sequence>
-      <element name="AuthConsumerURL" type="string"/>
-      <element name="WAYFLocationService" type="string"/>
-      <element name="SAML2WBSSOService" type="string"/>
+      <element name="GPSService" type="string"/>
       <element name="Timeout" type="string"/>
     </sequence>
   </complexType>
@@ -71,19 +69,6 @@
         <element name="GuardInfo" type="gx:guardInfoType" />
         <element name="Cookie" type="gx:cookieType" />
         <element name="EngineInfo" type="gx:engineInfoType" />
-        <element name="TrustStore" type="string" />
-        <element name="TrustStorePassword" type="string" />
-        <element name="Keystore" type="string" />
-        <element name="KeystorePassword" type="string" />
-        <element name="CertificateAlias" type="string" />
-        <element name="KeyType" type="string" />
-        <element name="Profiles" minOccurs="0" maxOccurs="1">
-          <complexType>
-            <sequence>
-              <element name="Profile" type="gx:guardProfileType" minOccurs="1" maxOccurs="unbounded" />
-            </sequence>
-          </complexType>
-        </element>
       </sequence>
     </complexType>
   </element>
