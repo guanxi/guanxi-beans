@@ -41,6 +41,7 @@
       <element name="HostName" type="string"/>
       <element name="ID" type="string"/>
       <element name="AttributePrefix" type="string"/>
+      <element name="DefaultEntityID" type="string" minOccurs="0"/>
     </sequence>
   </complexType>
 
