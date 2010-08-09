@@ -55,7 +55,7 @@
         <inherited>true</inherited>
         <configuration>
           <schemaDirectory>${basedir}/xsd</schemaDirectory>
-          <sourceGenerationDirectory>src</sourceGenerationDirectory>
+          <sourceGenerationDirectory>src/main/java</sourceGenerationDirectory>
           <download>true</download>
           <noUpa>true</noUpa>
           <xmlConfigs>
