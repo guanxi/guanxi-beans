@@ -271,6 +271,7 @@
 
   <complexType name="mapProviderType">
     <sequence>
+      <element name="nameid" type="string" minOccurs="0" maxOccurs="1" />
       <element name="mapRef" type="gx:mapRefType" maxOccurs="unbounded" />
     </sequence>
     <attribute name="providerId" type="string"/>
