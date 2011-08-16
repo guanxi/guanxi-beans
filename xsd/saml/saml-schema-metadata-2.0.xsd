@@ -10,10 +10,12 @@
     attributeFormDefault="unqualified"
     blockDefault="substitution"
     version="2.0">
+    <!-- http://www.w3.org/TR/xmldsig-core/xmldsig-core-schema.xsd -->
     <import namespace="http://www.w3.org/2000/09/xmldsig#"
-        schemaLocation="http://www.w3.org/TR/2002/REC-xmldsig-core-20020212/xmldsig-core-schema.xsd"/>
+        schemaLocation="../xmldsig/xmldsig-core-schema.xsd"/>
+    <!-- http://www.w3.org/TR/2002/REC-xmlenc-core-20021210/xenc-schema.xsd -->
     <import namespace="http://www.w3.org/2001/04/xmlenc#"
-        schemaLocation="http://www.w3.org/TR/2002/REC-xmlenc-core-20021210/xenc-schema.xsd"/>
+        schemaLocation="../xmldsig/xenc-schema.xsd"/>
     <import namespace="urn:oasis:names:tc:SAML:2.0:assertion"
         schemaLocation="saml-schema-assertion-2.0.xsd"/>
     <import namespace="http://www.w3.org/XML/1998/namespace"
